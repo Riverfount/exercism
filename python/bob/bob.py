@@ -1,4 +1,9 @@
 def hey(string):
+    """
+    Bob recives an ask and answer it!
+    :param string:
+    :return: msg - answer of Bob according the ask!
+    """
     msg = 'Whatever.'
     if string.isupper():
         msg = 'Whoa, chill out!'
